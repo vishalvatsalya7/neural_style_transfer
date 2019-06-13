@@ -73,9 +73,9 @@ parser.add_argument('--tv_weight', type=float, default=1.0, required=False,
                     help='Total Variation weight.')
 
 args = parser.parse_args()
-base_image_path = '../images/me.jpg'
+base_image_path = '../images/anu.jpg'
 style_reference_image_path = '../images/style.jpg'
-result_prefix = '../images/'
+result_prefix = '../results/'
 iterations = args.iter
 
 # these are the weights of the different loss components
